@@ -16,17 +16,19 @@ HTML 기본학습
  - UL2
  - UL3
  
- ```
+ ```javascript
  using System.IO;
  
-  namespace HelloworldApp{
-    public class Program{
+  namespace HelloworldApp
+  {
+    public class Program
+    {
       public static void Main(String[]args){
        Console.WriteLine("Hello,World!");
        // Hello world 10 wow!
        }
-      }
-     }
+     )
+   }
  ```
 -------------------------------------------
 
