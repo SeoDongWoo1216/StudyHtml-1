@@ -64,4 +64,6 @@ JavaScript 기본학습
 
 -------------------------------------------
 
+<img src = "https://github.com/kg4543/StudyHtml/blob/main/test.JPG" width = "400" title ="절대경로" alt = "실행결과"/>
+
 문의메일 <jyc351919@naver.com>
