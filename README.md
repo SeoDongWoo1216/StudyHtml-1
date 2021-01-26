@@ -3,6 +3,9 @@ HTML5, CSS, JS 학습용 리포지토리
 
 -------------------------------------
 
+![배경화면](https://github.com/kg4543/StudyHtml/blob/main/test.JPG)
+
+-------------------------------------
 ## HTML5
 HTML 기본학습
 
