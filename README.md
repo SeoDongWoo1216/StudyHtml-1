@@ -35,7 +35,7 @@ HTML 기본학습
  ```
  
  --------------------------------------
- #참조링크
+ *참조링크*
  
  [Google](https://www.google.com) </br>
  [Naver](www.naver.com)
