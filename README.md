@@ -21,7 +21,8 @@ HTML 기본학습
 ## CSS
 CSS 기본학습
 
-> CSS us Cascading Style Sheets
+> CSS is Cascading Style Sheets.
+  CSS 배움
 
 -------------------------------------------
 
