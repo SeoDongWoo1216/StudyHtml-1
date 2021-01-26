@@ -16,13 +16,24 @@ HTML 기본학습
  - UL2
  - UL3
  
+ ```
+ using System.IO;
+ 
+  namespace HelloworldApp{
+    public class Program{
+      public static void Main(String[]args){
+       Console.WriteLine("Hello,World!");
+       // Hello world 10 wow!
+       }
+      }
+     }
+ ```
 -------------------------------------------
 
 ## CSS
 CSS 기본학습
 
 > CSS is Cascading Style Sheets.
-  CSS 배움
 
 -------------------------------------------
 
