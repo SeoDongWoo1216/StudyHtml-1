@@ -47,6 +47,10 @@ CSS 기본학습
 
 > CSS is Cascading Style Sheets.
 
+
+- [x] 학습하기
+- [ ] 복습하기
+
 -------------------------------------------
 
 ## JavaScript
