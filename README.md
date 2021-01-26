@@ -12,7 +12,7 @@ HTML 기본학습
 1. Hyper Text Markup Language 정의
 2. HTML 역사
 3. HTML5 차이점
-  -UL2  
+    -UL2  
   -UL3
   
 -------------------------------------------
