@@ -31,7 +31,7 @@ HTML 기본학습
    }
  ```
  
- [Google]:(https://www.google.com)
+ [Google](https://www.google.com)
  
 -------------------------------------------
 
