@@ -5,7 +5,9 @@ HTML5, CSS, JS 학습용 리포지토리
 
 ## HTML5
 HTML 기본학습
-</br>[HTML소스](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
+
+###HTML 기본학습
+[HTML소스](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
 
 -------------------------------------
 
