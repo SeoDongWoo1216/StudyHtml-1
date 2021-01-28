@@ -8,4 +8,4 @@
 
 ## HTML5 입력 태그
 
-[이전](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
+[이전](https://github.com/kg4543/StudyHtml)
