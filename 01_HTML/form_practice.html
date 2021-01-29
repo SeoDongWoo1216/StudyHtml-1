@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>IoT개발자 과정 - 응용S/W 기초</title>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+
+        #necessay {
+            color: red;
+        }
+
+        .box {
+            width: 700px;
+            height: 180px;
+            background-color: #ffffff;
+            padding: 10px 0 0 0;
+            border: 3px solid white;
+            border-radius: 10px 10px 10px 10px;
+            margin: 20px 0 0 250px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>IoT 개발자 과정 - 응용SW기초</h1>
-    <p>사전체크리스트<br>
-        *필수항목
-    </p>
-<hr>
-<p>이름*<br>
-<input type="text" name="이름" value="이름쓰세요"><br>
-성별<br>
-    <input type="radio" name="rid_gender" value="M">남자
-    <input type="radio" name="rid_gender" value="F">여자
-    <input type="radio" name="rid_gender" value="T">트랜스젠더<br>
-이전 공부경력<br>
-<select>
-    <option>경험 없음</option>
-    <option >6개월 미만</option>
-    <option>6개월~1년</option>
-    <option>1년~3년</option>
-    <option>3년 이상</option>
-</select>
-<hr>
-나는 프로그래밍이 무엇인지 설명할 수 있다<br>
-    <input type="radio" name="rid_first_answer" value="M">잘 설명할 수 있다.<br>
-    <input type="radio" name="rid_first_answer" value="F">어느 정도 설명할 수 있다.<br>
-    <input type="radio" name="rid_first_answer" value="T">설명하기 힘들다.
-<hr>
-나는 내 컴퓨터에 개발 환경을 셋팅해본 적이 있다.<br>
-<input type="radio" name="rid_second_answer" value="M">예<br>
-    <input type="radio" name="rid_second_answer" value="F">아니오
-    <hr>
-    나는 나의 GitHub저장소를 만들어 본 적이 있다.(주소URL)<br>
-    <input type="text" name="이름" value="주소URL"><br>
+    <div class="box">
+        <h1>IoT 개발자 과정 - 응용SW기초</h1>
+        사전체크리스트<br>
+        <p id="necessay">*필수항목
+        </p>
+    </div>
+    <div class="box">
+        이름*<br>
+            <input type="text" name="name" value="이름쓰세요"><br>
+        <hr>
+        성별<br>
+        <input type="radio" name="rid_gender" value="M">남자
+        <input type="radio" name="rid_gender" value="F">여자
+        <input type="radio" name="rid_gender" value="T">트랜스젠더<br>
+        <hr>
+        이전 공부경력<br>
+        <select>
+            <option>경험 없음</option>
+            <option>6개월 미만</option>
+            <option>6개월~1년</option>
+            <option>1년~3년</option>
+            <option>3년 이상</option>
+        </select>
+    </div>
+    <div class="box">
+        나는 프로그래밍이 무엇인지 설명할 수 있다<br><br><br>
+        <input type="radio" name="rid_first_answer" value="M">잘 설명할 수 있다.<br><br>
+        <input type="radio" name="rid_first_answer" value="F">어느 정도 설명할 수 있다.<br><br>
+        <input type="radio" name="rid_first_answer" value="T">설명하기 힘들다.
+    </div>
+    <div class="box">
+        나는 내 컴퓨터에 개발 환경을 셋팅해본 적이 있다.<br>
+        <input type="radio" name="rid_second_answer" value="M">예<br>
+        <input type="radio" name="rid_second_answer" value="F">아니오
+    </div>
+    <div class="box">
+        나는 나의 GitHub저장소를 만들어 본 적이 있다.(주소URL)<br>
+        <input type="text" name="이름" value="주소URL"><br>
+    </div>
     <hr>
     <input type="submit" name="btn_submit" value="제출"><br>
+    <a href="https://google.com" target="_blank">Google</a>
 
-<hr>
-<a href="https://jyc351919@naver.com">문의주세요!</a>
-
-</p>
 </body>
+
 </html>
