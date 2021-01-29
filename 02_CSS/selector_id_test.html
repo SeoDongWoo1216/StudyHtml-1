@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Seelector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header {
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: orange;
+        }
+
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #aside {
+            width: 200px;
+            float: left;
+            background: lawngreen;
+
+        }
+
+        #content {
+            width: 600px;
+            float: left;
+            background: blueviolet;
+        }
+
+        #footer {
+            width: 800px;
+            margin: 0 auto;
+            background-color: greenyellow;
+        }
+
+        .fruits {
+            color: red;
+            font-weight: bold;
+        }
+
+        .item {
+            color: salmon;
+        }
+
+        .footer {
+            background-color: silver;
+        }
+
+        input [type="text"] {
+            background: red;
+        }
+
+        input [type="password"] {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>#header tag</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside tag</h1>
+            <ul>
+                <li class="fruits"><a href="https://naver.com">사과</a></li>
+                <li><a href="https://microsoft.com">배</a></li>
+                <li><a href="https://oracle.com">바나나</a></li>
+                <li><a href="https://google.com">딸기</a></li>
+                <li class="fruits"><a href="https://daum.net">복숭아</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1 class="footer">#content tag</h1>
+            <form>
+                <input type="text">
+                <input type="password">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="item footer">#footer tag</h1>
+
+    </div>
+</body>
+
+</html>
