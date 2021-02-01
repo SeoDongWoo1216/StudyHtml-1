@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>One true layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            margin: 0 auto;
+            width: 800px;
+            background-color: blanchedalmond;
+        }
+        #header{
+            overflow: hidden;
+            background-color: cornflowerblue;
+            margin: 20px 0 10px 0;
+        }
+        #section{
+            overflow: hidden;
+            background-color: ivory;
+            margin: 10px 0 10px 0;
+        }
+
+        #aside{
+            float: left;
+            width: 200px;
+            background-color: plum;
+        }
+        #content{
+            float: left;
+            width: 600px;
+            background-color: chocolate;
+        }
+        #footer{
+            background-color: cyan;
+        }
+
+        .ellipsis{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="header" class="ellipsis">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, ipsam quia. Aut in asperiores commodi,
+        doloremque magni alias. Minima distinctio odit sed repudiandae recusandae ipsum qui et repellendus totam quidem?
+    </div>
+    <div id="section">
+        <div id="aside" class="ellipsis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum provident facere nihil ex nesciunt
+            nostrum accusantium deleniti quaerat aliquam qui possimus laudantium aperiam fugit necessitatibus mollitia
+            officia, veritatis tempora delectus!</div>
+        <div id="content" class="ellipsis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum provident facere nihil ex
+            nesciunt nostrum accusantium deleniti quaerat aliquam qui possimus laudantium aperiam fugit necessitatibus
+            mollitia officia, veritatis tempora delectus!</div>
+    </div>
+    <div id="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore a accusantium dignissimos fugit modi
+        officia nulla dolores fuga quo voluptate, inventore autem id excepturi, architecto, sequi sint. Asperiores,
+        voluptatem?
+    </div>
+</body>
+
+</html>
