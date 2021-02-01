@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        //로드 이벤트 연결
+        window.onload = function(){
+            var clock = document.getElementById("clock"); // Clock id 가져오기
+            setInterval(function(){
+                var date = new Date();
+                clock.innerHTML = now.toDateString(); // clock 객체의 HTML 현재보다 3초전의 값을 가져오기
+            }, 3000);
+        }
+    </script>
+</head>
+<body>
+    <h1 id="clock">구지가</h1>
+</body>
+</html>

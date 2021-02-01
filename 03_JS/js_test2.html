@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // 변수
+        var radius = 10;
+        var pi = 3.141592
+        console.log("원주율" + (2 * pi * radius));
+        console.log("원 넓이는" + (pi * pi * radius));
+
+        var left_val = 100;
+        var right_val = 200;
+        if (left_val < right_val) {
+            console.log("조건이 참인 문장을 실행합니다.");
+        }
+        else {
+            console.log("조건이 거짓인 문장을 실행합니다.");
+        }
+        console.log("모든일을 완료합니다.");
+
+        //날짜
+        var date = new Date();
+        //요소추출
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var day = date.getDay();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+
+        // Console.log(year + "-" + month + "-" + day + "-" + hour + ":" + min);
+
+        if (hour < 12) {
+            console.log("현재 오전입니다.");
+        }
+        else {
+            console.log("현재 오후입니다.");
+        }
+
+        if (hour < 5) {
+            console.log("아직 잘 시간");
+        } else if (hour < 7) {
+            console.log("기상");
+        } else if (hour < 9) {
+            console.log("출근");
+        } else if (hour < 12) {
+            console.log("오전근무");
+        } else {
+            console.log("오후일과");
+        }
+
+        // 배열 array
+        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        console.log(array[0]);
+        console.log(array[4]);
+        console.log(array[9]);
+
+        var i = 0;
+        console.log("반복문 while 처리");
+        while (i < array.length) {
+            console.log("배열" + i + "번째 값은" + array[i]);
+            i++;
+        }
+        console.log("반복문 for 처리");
+        for (var index = 0; index < array.length; index++) {
+            console.log(array[index]);
+        }
+
+    </script>
+</head>
+
+<body>
+    <h2>Javascript</h2>
+</body>
+
+</html>
