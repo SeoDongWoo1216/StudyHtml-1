@@ -32,5 +32,5 @@ JavaScript 기본학습
 ### 전체레이아웃
 ![결과1](/rf_images/Result_01.jpg "전체레이아웃")
 
-### 레이아웃
+### 팝업레이아웃
 ![결과2](/rf_images/Result_02.jpg "팝업레이아웃")
