@@ -14,12 +14,17 @@ HTML 기본학습
 ## CSS
 CSS 기본학습
 
+### CSS 기본학습
 [CSS소스](https://github.com/kg4543/StudyHtml/tree/main/02_CSS)
 
 -------------------------------------
 
 ## JavaScript
 JavaScript 기본학습
+
+
+### JS 기본학습
+[JS소스](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
 
 -------------------------------------
 
