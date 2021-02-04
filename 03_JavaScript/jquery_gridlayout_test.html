@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,15 +9,15 @@
     <script src='js/jquery-3.5.1.min.js'></script>
     <script src='js/masonry.pkgd.min.js'></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             for (let index = 0; index < 100; index++) {
                 $('<img class =\"box\"></div>').css({
                     width: 200,
-                    height: Math.floor(Math.random()*200)+50
+                    height: Math.floor(Math.random() * 200) + 50
                 })
-                .appendTo("body");
+                    .appendTo("body");
             } // 100개의 타일형 이미지 생성
-            
+
             //masonry grid 적용
             $('body').masonry({
                 columnWidth: 110,
@@ -34,17 +35,21 @@
         });
     </script>
     <style>
-        *{
-            margin: 0; padding: 0;
+        * {
+            margin: 0;
+            padding: 0;
         }
-        .box{
+
+        .box {
             background-color: indigo;
             margin: 5px;
             border-radius: 10px;
         }
     </style>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
