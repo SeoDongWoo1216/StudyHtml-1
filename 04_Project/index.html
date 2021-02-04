@@ -7,128 +7,63 @@
     <title>Interest</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-
-    <style>
-        /* 초기화 */
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'NanumGothic', sans-serif;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        img {
-            border: 0;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        body {
-            background-color: #f7f5f5;
-        }
-    </style>
-    <style>
-        /* 헤더 */
-        #main-header {
-            height: 40px;
-            background-color: #faf7f7;
-            position: relative;
-        }
-
-        .header-search-form {
-            float: left;
-        }
-
-        .header-menu {
-            float: right;
-        }
-
-        .header-title {
-            position: absolute;
-            width: 200px;
-            height: 40px;
-            left: 50%;
-            margin-left: -100px;
-            background-image: url('images/logo.png');
-            background-repeat: no-repeat;
-            text-indent: -9999px;
-        }
-
-        /*풀다운 메뉴*/
-        .outer-menu {
-            float: left;
-            width: 100px;
-            height: 20px;
-            line-height: 20px;
-            padding: 10px 0;
-            position: relative;
-            text-align: center;
-            font-size: 13px;
-            font-weight: bold;
-            z-index: 9999;
-        }
-
-        .outer-menu:hover {
-            background-color: #e1dfe1;
-        }
-
-        .inner-menu {
-            display: none;
-            background: #ffffff;
-            margin-top: 10px;
-            width: 100%;
-            border-top: 1px solid #cccacc;
-            box-shadow: 0 2px 4px rgba(34, 25, 25, 0.5);
-        }
-
-        .inner-menu a {
-            display: block;
-            padding: 5px 10px;
-            z-index: 5000;
-        }
-
-        .inner-menu:hover {
-            background-color: #e1dfdf;
-        }
-
-        /* 메인 네비게이션 */
-        #main-navigation {
-            height: 30px;
-            background-color: #faf7f7;
-            border-top: 1px solid #cfcaca;
-            box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.4);
-        }
-
-        #main-navigation>ul {
-            overflow: hidden;
-            text-align: center;
-        }
-
-        #main-navigation>ul>li {
-            display: inline;
-            padding: 0 5px;
-            line-height: 30px;
-            font-size: 13px;
-            color: #524d4d;
-            text-shadow: 0 1px 1px white;
-        }
-
-        #main-navigation>ul>li:hover {
-            background: #e1dfdf;
-            border-radius: 2px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/design.css">
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script>
+        //로드 이벤트
+        $(document).ready(function () {
+            //풀다운 메뉴 적용
+            $(".outer-menu").hover(function () {
+                $(this).find(".inner-menu").css("display", "block");
+            }, function () {
+                $(this).find(".inner-menu").css("display", "none");
+            });
 
+            //그리드 레이아웃,이미지 자동로드 적용
+            $("#main-section").imagesLoaded(function () {
+                $("#main-section").masonry({
+                    itemSelector: ".paper",
+                    columWidth: 230,
+                    // isAnimated: true
+                });
+            });
 
+            //lightbox
+            $(".paper").click(function () { showLightBox(this); });
+            $("#darken-background").click(function () { hideLightBox() });
+            //라이트박스이벤트 서포트 (사진영역을 눌러도 꺼지지 않게함)
+            $("#lightbox").click(function (event) { event.stopPropagation() });
+        });
+        // 라이트박스보이기
+        //그리드내 이미지 클릭한 것으로 나오기
+        function showLightBox(obj) {
+            var img_src = obj.getElementsByTagName("img")[0].src;
+            // var txt_src = obj.getElementsById("#random_text")[0].value;
+            // $(this).appendTo("#random_text");
+            $("#random_image").attr({
+                src: function () {
+                    return img_src;
+                    // 램덤이미지
+                    // var rnd_height = 500 + Math.floor(Math.random * 600) + 10;
+                    // return "https://placekitten.com/30/30" + rnd_height
+                }
+            });
+            $("#darken-background").show();
+            $("#darken-background").css("top", $(window).scrollTop());
+            $("body").css("overflow", "hidden");
+        }
+        // 라이트박스숨기기
+        function hideLightBox() {
+            $("#darken-background").hide();
+            $("body").css("overflow", "auto");
+        }
+
+    </script>
 </head>
 
 <body>
@@ -180,30 +115,277 @@
         <!-- .paper 여러번 복사 (later) -->
         <div class="paper">
             <div class="paper-holder">
-                <a><img width="190" src="https://placehold.it/190x306"></a>
+                <a><img width="190" src="images/nintendo/대난투.jpeg"></a>
             </div>
-            <p class="paper-description">Lorem ipsum dolor sit amet</p>
+            <p class="paper-description">슈퍼마리오 대난투<br><a href="http://prod.danawa.com/info/?pcode=6215762">$51</a></p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
-                    <img src="https://placehold.it/190x100">
+                    <img src="https://placekitten.com/30/30">
                 </a>
-                <p class="paper-text">Lorem ipsum dolor sit amet</p>
+                <p class="paper-text">'스매시(스틱 튕기기)'를 중심으로 한 조작 시스템의 체계와 기본 게임 시스템의 대부분은 이미 이 시점에서 확립되어 있었다. 이후 작품에도 몇몇
+                    시스템이 추가되지만, 이 시점에서 정해진 시스템에 관해서는 이후에도 거의 변경되지 않는다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/동물의숲.jpeg"></a>
+            </div>
+            <p class="paper-description">동물의 숲<br><a href="http://prod.danawa.com/info/?pcode=6467428">$52.51</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">동물들이 살고 있는 작은 마을에서 다른 동물 이웃들과 교류하면서 생활한다는 내용의 게임이다. 플레이어가 자기 나름대로의 라이프 스타일을 즐길 수
+                    있도록 게임 시스템이 설계되어 있어 자유도가 높다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/링피트.jpeg"></a>
+            </div>
+            <p class="paper-description">링피트<br><a href="http://prod.danawa.com/info/?pcode=9566103">$84.71</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text"> 링 피트 어드벤처가 근력 운동을 위해 고안된 것은 아니지만 체력을 유지하기 위한 효과적인 운동 게임</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/마리오카트8.jpeg"></a>
+            </div>
+            <p class="paper-description">마리오카트8<br><a href="http://prod.danawa.com/info/?pcode=5505387">$52.43</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text"> 마리오 카트 시리즈의 8번째 게임인 Wii U 게임으로, 2014년 5월 29일 일본에서 먼저 발매되었다. 이번 게임에는 반중력 구간도 등장하며,
+                    바이크, 육해공 레이스, ATV도 등장한다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/마리오테니스.jpeg"></a>
+            </div>
+            <p class="paper-description">마리오테니스<br><a href="http://prod.danawa.com/info/?pcode=5811638">$50.26</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">닌텐도가 발매하는 테니스 게임이다. 마리오 시리즈에 등장하는 주요 캐릭터들이 테니스로 대결한다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/메가맨.jpeg"></a>
+            </div>
+            <p class="paper-description">메가맨<br><a href="http://prod.danawa.com/info/?pcode=11804941">$46</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text"> 로봇 전사 록맨을 주인공으로 하여 1987년 12월에 패밀리 컴퓨터로 발매된 록맨으로 시리즈가 시작됐으며,11번째 메가맨작품이다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/소닉.jpeg"></a>
+            </div>
+            <p class="paper-description">소닉<br><a href="http://prod.danawa.com/info/?pcode=5505327">$104.6</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">비싼 게임?</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/슈퍼마리오3D.jpeg"></a>
+            </div>
+            <p class="paper-description">슈퍼마리오3D<br><a href="http://prod.danawa.com/info/?pcode=12199271">$50.75</a>
+            </p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">슈퍼마리오를 3D로 즐길 수 있다. 오딧세이를 더 추천한다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/슈퍼마리오브라더스.jpeg"></a>
+            </div>
+            <p class="paper-description">뉴슈퍼마리오브라더스<br><a
+                href="http://prod.danawa.com/info/?pcode=6467425">$51.99</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">2019년 1월 30일에 발매한 닌텐도의 비디오 게임으로, Wii U로 발매된 뉴 슈퍼 마리오브라더스 U와 뉴 슈퍼 루이지 U의 합본이다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/슈퍼마리오브라더스2.jpeg"></a>
+            </div>
+            <p class="paper-description">뉴슈퍼마리오브라더스2<br><a
+                href="http://prod.danawa.com/info/?pcode=7236064">$51.99</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">직접 맵을 만들고 다른 사람과 대전을 할 수 있다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/슈퍼마리오오딧세이.jpeg"></a>
+            </div>
+            <p class="paper-description">슈퍼마리오오딧세이<br><a
+                href="http://prod.danawa.com/info/?pcode=5505221">$50.26</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">현재 슈퍼마리오 스위치게임 중 가장 추천작</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/슈퍼마리오파티.jpeg"></a>
+            </div>
+            <p class="paper-description">슈퍼마리오파티<br><a href="http://prod.danawa.com/info/?pcode=6215782">$58.96</a>
+            </p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">마리오 시리즈의 캐릭터가 등장하는 닌텐도의 파티 게임 비디오 게임 시리즈이다. 첫 작품인 마리오 파티부터 마리오 파티 8과 마리오 파티 DS까지는
+                    허드슨 소프트에서 개발하였으나, 마리오 파티 9부터는 Nd 큐브에서 개발하였다. 현재까지의 마지막 작품은 닌텐도 스위치용 슈퍼 마리오 파티이다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/스플레툰2.jpeg"></a>
+            </div>
+            <p class="paper-description">스플래툰2<br><a href="http://prod.danawa.com/info/?pcode=4943053">$51.57</a>
+            </p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">액션 총 게임으로 대전상대가 아닌 맵을 자신의 팀 색깔로 많이 색칠한 쪽이 이기는 게임이다.</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/암즈.jpeg"></a>
+            </div>
+            <p class="paper-description">암즈<br><a href="http://prod.danawa.com/info/?pcode=5707731">$54.72</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">로봇 대전게임 중 수작으로 액션이 좋음</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/젤다 야숨.jpeg"></a>
+            </div>
+            <p class="paper-description">젤다 야생의 숨결<br><a
+                href="http://prod.danawa.com/info/?pcode=5525156">$58.67</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">현 스위치 게임 중 추천 순위 1위</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/젤다꿈섬.jpeg"></a>
+            </div>
+            <p class="paper-description">젤다 꿈꾸는 섬<br><a href="http://prod.danawa.com/info/?pcode=7239259">$50.83</a>
+            </p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text"> 2019년에는 닌텐도 다이렉트를 통해 닌텐도 스위치로 리메이크가 결정된 수작</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/커비.jpeg"></a>
+            </div>
+            <p class="paper-description">커비 파이터즈2<br><a
+                href="http://prod.danawa.com/info/?pcode=12770330">$18.18</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">커비 캐릭터를 활용한 대전게임</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/커비스타.jpeg"></a>
+            </div>
+            <p class="paper-description">커비 스타얼라이즈<br><a
+                href="http://prod.danawa.com/info/?pcode=5707952">$52.72</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text"> HAL 연구소가 개발하고 닌텐도가 2018년에 발매한 닌텐도 스위치용 게임이다. 커비 시리즈 최초의 닌텐도 스위치용 소프트웨어이며, 커비 본편
+                    시리즈로는 《별의 커비 로보보 플래닛》 이후 2년만의 작품</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/포켓몬스터.jpeg"></a>
+            </div>
+            <p class="paper-description">포켓몬스터 소드&실드<br><a
+                href="http://prod.danawa.com/info/?pcode=11930437&keyword=%ED%8F%AC%EC%BC%93%EB%AA%AC">$25.89</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">포켓몬스터 소드와 실드 확장판</p>
+            </div>
+        </div>
+        <div class="paper">
+            <div class="paper-holder">
+                <a><img width="190" src="images/nintendo/피파.jpeg"></a>
+            </div>
+            <p class="paper-description">피파2021<br><a
+                href="http://prod.danawa.com/info/?pcode=12287384&relationMenuType=category">$52.30</a></p>
+            <div class="paper-content">
+                <a class="paper-link" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <p class="paper-text">축구게임이다.</p>
             </div>
         </div>
         <!-- .paper 끝 -->
     </section>
     <div id="darken-background">
         <div id="lightbox">
-            <a class="user-information-image" href="#">
-                <img src="https://placehold.it/70x70">
-            </a>
-            <div class="user-information-text">
-                <h3>User</h3>
-                <p>Lorem ipsum dolor sit amet</p>
+            <div class="user-information">
+                <a class="user-information-image" href="#">
+                    <img src="https://placekitten.com/30/30">
+                </a>
+                <div class="user-information-text">
+                    <h3>User</h3>
+                    <p id="random_text">바꿔보자</p>
+                </div>
             </div>
+            <hr class="lightbox-splitter">
+            <img id="random_image" src="#" width="600">
         </div>
-        <hr class="lightbox-splitter">
-        <img src="https://placehold.it/600x750">
     </div>
     <footer id="main-footer"></footer>
 </body>
