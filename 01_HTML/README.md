@@ -175,8 +175,16 @@
 [외부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/css_test.html) / 
 [외부 CSS 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/styles/style.css)
 
--------------------------------
+[CSS 상세](https://github.com/kg4543/StudyHtml/tree/main/02_CSS)
 
-## HTML5 돌아가기
+-------------------------------
+## Practice 
+<kbd>![Practice](/01_HTML/실행화면/practice.PNG "Practice")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/form_practice.html)
+
+
+-------------------------------
+## 본 문서 돌아가기
 
 [이전](https://github.com/kg4543/StudyHtml)
