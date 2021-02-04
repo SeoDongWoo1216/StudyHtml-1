@@ -8,7 +8,7 @@
 <p>: 본문 글을 적는데 활용
 <br>: 줄 바꿈
 <hr>: 문단 바꿈
-<a href="#" target="@">: HyperText referance의 약어로 다른 주소를 연결
+<a href="#" target="@">: 'HyperText referance'의 약어로 다른 주소를 연결
 @ = "_self": 현재 페이지가 이동
 @ = "_blank": 새창에서 이동
 
