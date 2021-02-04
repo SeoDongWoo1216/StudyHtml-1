@@ -2,7 +2,8 @@
 
 태그, 요소, 속성에 의미 이해 및 HTML>CSS>JS 작성
 
-## HTML5 기본태그
+-------------------------------------
+## 1. 기본태그
 
 * h1 ~ h6: 제목을 적는데 활용하며 1부터 6까지 내려갈 수록 글자크기가 작아짐 <br>
 * p: 본문 글을 적는데 활용 <br>
@@ -26,7 +27,10 @@
 ### 구현 및 코드
 ![text_header](/01_HTML/실행화면/text_header.png "기본구성")
 
-[코드링크](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
+
+-------------------------------
+## 2.목록 만들기  
 
 -------------------------------
 ## HTML5 돌아가기
