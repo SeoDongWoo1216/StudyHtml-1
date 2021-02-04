@@ -52,7 +52,7 @@
 * + th,td rowspan="@": @만큼 아래로 확장
  
  ### 구현 및 코드
-![table_test](/# "테이블구성")
+![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/table_test.html)
 
@@ -70,7 +70,7 @@
 3.(비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
-![media_test](/# "미디어구성")
+![media_test](/01_HTML/실행화면/media_test.png "미디어구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
