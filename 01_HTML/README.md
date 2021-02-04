@@ -61,17 +61,19 @@
 -------------------------------
 ## 4.미디어 
 
-* img 태그
+* img + @
 
+@
 1. src: 이미지 경로 지정
 2. alt: 이미지가 없을 때 나오는 문자
-3.width: 너비 height: 높이
+3. width: 너비 height: 높이
 
-* audio,video 태그
+* audio,video + @
 
+@
 1. src: 이미지 경로 지정
-2.controls: 제어기 생성
-3.(비디오의 경우) .width: 너비 height: 높이
+2. controls: 제어기 생성
+3. (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
 ![media_test](/01_HTML/실행화면/media_test.png "미디어구성")
