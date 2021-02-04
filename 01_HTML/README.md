@@ -21,7 +21,7 @@
 <ins>: 밑줄 표시
 <del>: 취소선 
 
-'''
+```
 <!DOCTYPE html>
 <html>
 
@@ -49,7 +49,7 @@
 </body>
 
 </html>
-'''
+```
 
 
 ## HTML5 입력 태그
