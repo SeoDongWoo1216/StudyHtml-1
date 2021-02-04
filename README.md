@@ -20,7 +20,7 @@ CSS 기본학습
 ## JavaScript
 JavaScript 기본학습
 
-[JS소스](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
+[JavaScript소스](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
 
 -------------------------------------
 
