@@ -30,7 +30,38 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
 -------------------------------
-## 2.목록 만들기  
+## 2.목록 만들기 
+
+* ul 순서가 없는 목록
+* ol 순서가 있는 목록
+* li 목록요소 생성
+
+<예시>
+```
+<body>
+    <P><b>과일가게</b></P>
+    <ul>
+        <li>
+            한글자
+            <ol>
+                <li>배</li>
+                <li>감</li>
+            </ol>
+        </li>
+        <li>두글자
+            <ol>
+                <li>사과</li>
+                <li>포도</li>
+            </ol>
+        </li>
+      </ul>
+ ```
+ 
+ 
+ ### 구현 및 코드
+![text_header](/01_HTML/실행화면/text_header.png "기본구성")
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/list_test.html)
 
 -------------------------------
 ## HTML5 돌아가기
