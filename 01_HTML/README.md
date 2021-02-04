@@ -12,8 +12,8 @@
 * a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
 
 @ 
-1. "_self": 현재페이지에서 이동 <br>
-2. "_blank": 새창에서 이동 <br>
+1. _self: 현재페이지에서 이동 <br>
+2. _blank: 새창에서 이동 <br>
 
 ### + Stylish
 
@@ -27,7 +27,7 @@
 
 
 ### 구현 및 코드
-![text_header](/01_HTML/실행화면/text_header.png "기본구성")
+![text_header](# "기본구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
@@ -54,7 +54,7 @@
 <br> \+ th,td rowspan="@": @만큼 아래로 확장
  
  ### 구현 및 코드
-![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
+![table_test](# "테이블구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/table_test.html)
 
@@ -76,7 +76,7 @@
 3. (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
-![media_test](/01_HTML/실행화면/media_test.png "미디어구성")
+![media_test](# "미디어구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
@@ -102,9 +102,35 @@
 * fieldset /// legend: 속해지는 하부 객체들을 감싸는 틀 생성 /// 내용 작성
 
  ### 구현 및 코드
-![input_test](/01_HTML/실행화면/input_test.png "입력 구성")
+![input_test](/# "입력 구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
+
+-------------------------------
+## 6.공간 분할 
+
+* div 블록형식으로서 전체 공간분할
+* span 인라인형식으로서 글자가 들어간 만큼만 공간분할
+ 
+ ![div](/#"공간분할")
+ 
+ ### 구현 및 코드
+![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
+
+-------------------------------
+## 7.CSS 활용  
+
+* div 블록형식으로서 전체 공간분할
+* span 인라인형식으로서 글자가 들어간 만큼만 공간분할
+ 
+ ![div](/#"공간분할")
+ 
+ ### 구현 및 코드
+![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
 
 -------------------------------
 
