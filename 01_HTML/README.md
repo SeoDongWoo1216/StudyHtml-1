@@ -25,34 +25,10 @@
 -------------------------------
 ### 구현 및 코드
 ![text_header](/01_HTML/실행화면/text_header.png "기본구성")
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        HTML5 Text
-    </title>
-</head>
-<body>
-    <h1>시작합니다</h1>
-    <h2>계속됩니다</h2>
-    <h3>유지중입니다</h3>
-    <h4>끝나갑니다</h4>
-    <h5>조금만 더...</h5>
-    <h6>이제 끝납니다</h6>
-    <p>본문</p>
-    <hr>
-    <p><i>Italic</i><b>B</b><small>Small</small> <sub>Sub</sub> <sup>Sup</sup> <ins>Ins</ins> <del>Del</del>
-    <br>Phasellus sem tortor, volutpat vitae euismod eget</p>
-    <hr>
-    <a href="https://www.naver.com" target="_self">Naver</a> <br>
-    <a href="https://www.youtube.com" target="_parnet">Youtube</a><br>
-    <a href="https://google.com" target="_blank">Google</a>
-</body>
-</html>
-```
 
+[코드링크](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
-## HTML5 입력 태그
+-------------------------------
+## HTML5 돌아가기
 
 [이전](https://github.com/kg4543/StudyHtml)
