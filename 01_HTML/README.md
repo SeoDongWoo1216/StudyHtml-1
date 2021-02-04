@@ -119,7 +119,7 @@
  ![div](/01_HTML/images/공간분할.PNG "공간분할")
  
  ### 구현 및 코드
-<kbd>![table_test](/01_HTML/실행화면/table_test.png "테이블구성")</kbd>
+<kbd>![space_test](/01_HTML/실행화면/space_test.PNG "공간분할")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
 
