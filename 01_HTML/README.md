@@ -24,7 +24,7 @@
 
 -------------------------------
 ### 구현 및 코드
-![text_header](/실행화면/text_header.png "기본구성")
+![text_header](/01_HTML/실행화면/text_header.png "기본구성")
 ```
 <!DOCTYPE html>
 <html>
