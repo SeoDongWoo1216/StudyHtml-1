@@ -77,8 +77,23 @@
 -------------------------------
 ## 5.입력 구성
 
-* 
- 
+* form: 입력양식의 내용을 넣을 틀을 만든다.
+* input type ="@" name="#" value="데이터값"
+@
+1. text: 입력창을 만든다.
+2. passward: 표기 시 패스워드형태로 표현되는 입력창을 만든다.
+3. file: 첨부파일 기능 생성
+4. checkbox: 복수 선택이 가능한 box 생성
+5. radio: 복수 선택이 불가능한 box 생성(동일 name="#" 지정)
+6. hidden: 보이지 않는 input값 생성
+7. button: 일반 버튼 생성
+8. reset: 재시작 버튼 생성
+9. submit: 제출 버튼 생성
+
+* select: 리스트 박스 생성
+ /+ option: 리스트박스에 들어갈 내용 생성
+* fieldset /// legend: 속해지는 하부 객체들을 감싸는 틀 생성 /// 내용 작성
+
  ### 구현 및 코드
 ![input_test](/01_HTML/실행화면/input_test.png "입력 구성")
 
