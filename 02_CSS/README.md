@@ -1,9 +1,9 @@
-# HTML 기본학습
+# CSS 기본학습
 
 ## 웹 페이지 기본 구조와 작성방법
 태그, 요소, 속성에 의미 이해 및 HTML 기본기 작성
 
-## HTML5 기본태그
+## HTML5 - CSS 기본태그
 HTML 
 ```
 <!DOCTYPE html>
