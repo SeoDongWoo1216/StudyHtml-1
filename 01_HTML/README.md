@@ -27,7 +27,7 @@
 
 
 ### 구현 및 코드
-![text_header](/01_HTML/실행화면/text_header.png "기본구성")
+<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
