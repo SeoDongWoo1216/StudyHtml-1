@@ -28,13 +28,11 @@
 ```
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>
         HTML5 Text
     </title>
 </head>
-
 <body>
     <h1>시작합니다</h1>
     <h2>계속됩니다</h2>
@@ -51,7 +49,6 @@
     <a href="https://www.youtube.com" target="_parnet">Youtube</a><br>
     <a href="https://google.com" target="_blank">Google</a>
 </body>
-
 </html>
 ```
 
