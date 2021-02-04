@@ -39,7 +39,7 @@
 * li: 목록요소 생성
  
  ### 구현 및 코드
-![list_test](01_HTML/실행화면/list_test.PNG "목록구성")
+![list_test](/01_HTML/실행화면/list_test.PNG "목록구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/list_test.html)
 
@@ -102,7 +102,7 @@
 * fieldset /// legend: 속해지는 하부 객체들을 감싸는 틀 생성 /// 내용 작성
 
  ### 구현 및 코드
-![input_test](01_HTML/실행화면/input_test.PNG "입력 구성")
+![input_test](/01_HTML/실행화면/input_test.PNG "입력 구성")
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
 
