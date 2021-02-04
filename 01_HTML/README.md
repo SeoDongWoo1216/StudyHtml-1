@@ -4,22 +4,22 @@
 
 ## HTML5 기본태그
 
-h1 ~ h6: 제목을 적는데 활용하며 1부터 6까지 내려갈 수록 글자크기가 작아짐 <br>
-p: 본문 글을 적는데 활용 <br>
-br: 줄 바꿈 <br>
-hr: 문단 바꿈 <br>
-a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
+* h1 ~ h6: 제목을 적는데 활용하며 1부터 6까지 내려갈 수록 글자크기가 작아짐 <br>
+* p: 본문 글을 적는데 활용 <br>
+* br: 줄 바꿈 <br>
+* hr: 문단 바꿈 <br>
+* a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
 @ = "_self": 현재페이지에서 이동 <br>
 @ = "_blank": 새창에서 이동 <br>
 
 + Stylish <br>
-i: 이탤릭체 <br>
-b: 글자 굵게 <br>
-small: 작은 글자 <br>
-sub: 아래 첨자 <br>
-sup: 위 첨자 <br>
-ins: 밑줄 표시 <br>
-del: 취소선 <br> 
+* i: 이탤릭체 <br>
+* b: 글자 굵게 <br>
+* small: 작은 글자 <br>
+* sub: 아래 첨자 <br>
+* sup: 위 첨자 <br>
+* ins: 밑줄 표시 <br>
+* del: 취소선 <br> 
 
 ```
 <!DOCTYPE html>
