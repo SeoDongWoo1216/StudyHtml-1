@@ -4,23 +4,20 @@ HTML5, CSS, JS 학습용 리포지토리
 -------------------------------------
 
 ## HTML5
-HTML 기본학습
 
-[HTML상세](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
+[HTML 기본학습](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
 
 -------------------------------------
 
 ## CSS
-CSS 기본학습
 
-[CSS상세](https://github.com/kg4543/StudyHtml/tree/main/02_CSS)
+[CSS 기본학습](https://github.com/kg4543/StudyHtml/tree/main/02_CSS)
 
 -------------------------------------
 
 ## JavaScript
-JavaScript 기본학습
 
-[JavaScript상세](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
+[JavaScript 기본학습](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
 
 -------------------------------------
 
