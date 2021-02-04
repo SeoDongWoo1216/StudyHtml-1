@@ -12,7 +12,8 @@
 @ = "_self": 현재페이지에서 이동 <br>
 @ = "_blank": 새창에서 이동 <br>
 
-+ Stylish <br>
+### Stylish
+
 * i: 이탤릭체 <br>
 * b: 글자 굵게 <br>
 * small: 작은 글자 <br>
