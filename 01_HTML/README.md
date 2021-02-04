@@ -48,8 +48,8 @@
 * tr: 행(row) 삽입
 * th: 첫 제목 셀 삽입
 * td: 일반 셀에 내용 삽입
-* \'+'\ th,td colspan="@": @만큼 옆으로 확장
-* \'+'\ th,td rowspan="@": @만큼 아래로 확장
+* \+\ th,td colspan="@": @만큼 옆으로 확장
+* \+\ th,td rowspan="@": @만큼 아래로 확장
  
  ### 구현 및 코드
 ![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
