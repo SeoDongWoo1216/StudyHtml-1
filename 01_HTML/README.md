@@ -99,7 +99,7 @@
 
 * select: 리스트 박스 생성
  /+ option: 리스트박스에 들어갈 내용 생성
-* fieldset /// legend: 속해지는 하부 객체들을 감싸는 틀 생성 /// 내용 작성
+* fieldset / legend: 속해지는 하부 객체들을 감싸는 틀 생성 / 내용 작성
 
  ### 구현 및 코드
 <kbd>![input_test](/01_HTML/실행화면/input_test.PNG "입력 구성")</kbd>
@@ -172,7 +172,7 @@
 
 [내부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/script_test.html)
 
-[외부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/css_test.html)
+[외부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/css_test.html) / 
 [외부 CSS 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/styles/style.css)
 
 -------------------------------
