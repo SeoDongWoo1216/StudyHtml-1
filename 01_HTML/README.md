@@ -75,6 +75,16 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
 -------------------------------
+## 5.입력 구성
+
+* 
+ 
+ ### 구현 및 코드
+![input_test](/01_HTML/실행화면/input_test.png "입력 구성")
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
+
+-------------------------------
 
 ## HTML5 돌아가기
 
