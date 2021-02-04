@@ -10,8 +10,10 @@
 * br: 줄 바꿈 <br>
 * hr: 문단 바꿈 <br>
 * a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
-@ = "_self": 현재페이지에서 이동 <br>
-@ = "_blank": 새창에서 이동 <br>
+
+@ 
+1. "_self": 현재페이지에서 이동 <br>
+2. "_blank": 새창에서 이동 <br>
 
 ### + Stylish
 
@@ -60,11 +62,13 @@
 ## 4.미디어 
 
 * img 태그
+
 1. src: 이미지 경로 지정
 2. alt: 이미지가 없을 때 나오는 문자
 3.width: 너비 height: 높이
 
 * audio,video 태그
+
 1. src: 이미지 경로 지정
 2.controls: 제어기 생성
 3.(비디오의 경우) .width: 너비 height: 높이
