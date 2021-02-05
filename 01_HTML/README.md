@@ -10,10 +10,8 @@
 * br: 줄 바꿈 <br>
 * hr: 문단 바꿈 <br>
 * a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
-
-@ 
-1. _self: 현재페이지에서 이동 <br>
-2. _blank: 새창에서 이동 <br>
+ 1. _self: 현재페이지에서 이동 <br>
+ 2. _blank: 새창에서 이동 <br>
 
 ### + Stylish
 
