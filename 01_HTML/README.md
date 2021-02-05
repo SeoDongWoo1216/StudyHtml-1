@@ -27,7 +27,7 @@
 
 
 ### 구현 및 코드
-![text_header](/01_HTML/실행화면/text_header.png "기본구성")
+<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
@@ -39,7 +39,7 @@
 * li: 목록요소 생성
  
  ### 구현 및 코드
-![list_test](/01_HTML/실행화면/list_test.PNG "목록구성")
+<kbd>![list_test](/01_HTML/실행화면/list_test.PNG "목록구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/list_test.html)
 
@@ -54,7 +54,7 @@
 <br> \+ th,td rowspan="@": @만큼 아래로 확장
  
  ### 구현 및 코드
-![table_test](/01_HTML/실행화면/table_test.PNG "테이블구성")
+<kbd>![table_test](/01_HTML/실행화면/table_test.PNG "테이블구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/table_test.html)
 
@@ -76,7 +76,7 @@
 3. (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
-![media_test](/01_HTML/실행화면/media_test.PNG "미디어구성")
+<kbd>![media_test](/01_HTML/실행화면/media_test.PNG "미디어구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
@@ -99,10 +99,10 @@
 
 * select: 리스트 박스 생성
  /+ option: 리스트박스에 들어갈 내용 생성
-* fieldset /// legend: 속해지는 하부 객체들을 감싸는 틀 생성 /// 내용 작성
+* fieldset / legend: 속해지는 하부 객체들을 감싸는 틀 생성 / 내용 작성
 
  ### 구현 및 코드
-![input_test](/01_HTML/실행화면/input_test.PNG "입력 구성")
+<kbd>![input_test](/01_HTML/실행화면/input_test.PNG "입력 구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
 
@@ -119,21 +119,72 @@
  ![div](/01_HTML/images/공간분할.PNG "공간분할")
  
  ### 구현 및 코드
-![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
+<kbd>![space_test](/01_HTML/실행화면/space_test.PNG "공간분할")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
 
 -------------------------------
 ## 7.CSS 활용  
-
- 
+* 내부 스타일시트 적용
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            세번째 웹페이지
+        </title>
+            <style>
+                h1 {
+                    color: whitesmoke;
+                    background-color: black;
+                }
+                p{
+                    color: red;
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            </style>
+    </head>
+    <body>
+        <h1>Hello world</h1>
+        <p>내용입니다</p>
+    </body>
+</html>
+```
+* 외부 스타일시트 적용
+ ```
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            두번째 웹페이지
+        </title>
+         <link rel ="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <h1>Hello world</h1>
+        <p>내용입니다</p>
+    </body>
+</html>
+```
  ### 구현 및 코드
-![table_test](/01_HTML/실행화면/table_test.png "테이블구성")
+<kbd>![css_style](/01_HTML/실행화면/css_test.PNG "css_style")</kbd>
 
-[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
+[내부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/script_test.html)
+
+[외부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/css_test.html) / 
+[외부 CSS 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/styles/style.css)
+
+[CSS 상세](https://github.com/kg4543/StudyHtml/tree/main/02_CSS)
 
 -------------------------------
+## Practice 
+<kbd>![Practice](/01_HTML/실행화면/practice.PNG "Practice")</kbd>
 
-## HTML5 돌아가기
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/form_practice.html)
+
+
+-------------------------------
+## 본 문서 돌아가기
 
 [이전](https://github.com/kg4543/StudyHtml)
