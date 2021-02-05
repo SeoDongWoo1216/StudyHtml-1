@@ -1,38 +1,51 @@
 # CSS 기본학습
 
-## 웹 페이지 기본 구조와 작성방법
-태그, 요소, 속성에 의미 이해 및 HTML 기본기 작성
+-----------------------
+## 1.기본 선택자
 
-## HTML5 - CSS 기본태그
-HTML 
-```
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            HTML5+CSS Text
-        </title>
-    </head>
-    <body>
-        <h1>시작합니다</h1>
-        <h2>계속됩니다</h2>
-        <h3>유지중입니다</h3>
-        <h4>끝나갑니다</h4>
-        <h5>조금만 더...</h5>
-        <h6>이제 끝납니다</h6>
-        <p>P 문자</p>
-        <hr>
-        <p><i><b>B <small>Small</small> <sub>Sub</sub> <sup>Sup</sup> <ins>Ins</ins> <del>Del</del> amet consectetur, adipisicing elit.</b><br>
-            Nisi aliquam nostrum, numquam esse tempora nemo error nulla necessitatibus vitae.I</i><br> 
-            Quasi repudiandae commodi quo aperiam, reprehenderit quos similique voluptatibus at consequatur!</p>
-        <p>Phasellus sem tortor, volutpat vitae euismod eget</p>
-        <hr>
-        <a href="https://www.naver.com" target="_self">Naver</a> <br>
-        <a href="https://www.youtube.com" target="_parnet">Youtube</a><br>
-        <a href="https://google.com" target="_blank">Google</a>
-    </body>
-</html>
-```
+* 선택자{스타일 속성: 스타일 값;}
+
+- 전체 선택자: '*'로 표기
+- 태그 선택자: 태그 그래도 표기
+- 아이디 선택자: '#id' 형태로 표기
+- 클래스 선택자: '.class' 형태로 표기
+- 자손 선택자: 선택자 > 선택자
+- 후손 선택자: 선택자 선택자
+
+### 구현 및 코드
+<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_id_test.html)
+
+[HTML_6장_참고](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
+
+
+## 2.반응/상태/구조 선택자
+* 반응선택자
+ - :active : 마우스로 클릭 시 이벤트 발생
+ - :hover : 마우스 커서가 올라가면 이벤트 발생
+
+* 상태선택자(input 태그에 사용)
+- :checked: check 상태의 input 태그 선택
+- :focus: 현재 focus 상태의 input 태그 선택
+- :enabled: 사용가능한 상태의 input 태그 선택
+- disabled: 사용불가능 상태의 input 태그 선택
+
+### 구현 및 코드
+<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_child_test.html)
+
+* 구조선택자
+- :first-child: 형제 관계에서 첫번째
+- :last-child: 형제 관계에서 마지막
+- :nth-child(n): 형제관계에서 'n-1'번째
+- :nth-last-child(n): 형제관계에서 거꾸로 'n-1'번째    
+
+### 구현 및 코드
+<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_struct_test.html)
 
 ## HTML5 입력 태그
 
