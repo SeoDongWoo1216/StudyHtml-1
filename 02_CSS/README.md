@@ -136,6 +136,24 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기2](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/layout1_test.html)
 
 -----------------------------------
+## 10. 레이아웃의 구성 및 기능
+
+### 구현 및 코드
+<kbd>![one_true](/02_CSS/CSS_실행화면/onetrue.PNG "one_true")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/layout_onetrue.html)
+
+```
+.ellipsis{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+```
+ * text-overflow: ellipsis: Text가 길 경우 뒷부분 생략처리
+-----------------------------------
+
+
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
