@@ -60,14 +60,14 @@
 ## 4.미디어 
 
 * img + @
- - src: 이미지 경로 지정
- - alt: 이미지가 없을 때 나오는 문자
- - width: 너비 height: 높이
+  - src: 이미지 경로 지정
+  - alt: 이미지가 없을 때 나오는 문자
+  - width: 너비 height: 높이
 
 * audio,video + @
- - src: 이미지 경로 지정
- - controls: 제어기 생성
- - (비디오의 경우) .width: 너비 height: 높이
+  - src: 이미지 경로 지정
+  - controls: 제어기 생성
+  - (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
 <kbd>![media_test](/01_HTML/HTML_실행화면/media_test.PNG "미디어구성")</kbd>
@@ -79,15 +79,15 @@
 
 * form: 입력양식의 내용을 넣을 틀을 만든다.
 * input type ="@" name="#" value="데이터값"
-- text: 입력창을 만든다.
-- passward: 표기 시 패스워드형태로 표현되는 입력창을 만든다.
-- file: 첨부파일 기능 생성
-- checkbox: 복수 선택이 가능한 box 생성
-- radio: 복수 선택이 불가능한 box 생성(동일 name="#" 지정)
-- hidden: 보이지 않는 input값 생성
-- button: 일반 버튼 생성
-- reset: 재시작 버튼 생성
-- submit: 제출 버튼 생성
+ - text: 입력창을 만든다.
+ - passward: 표기 시 패스워드형태로 표현되는 입력창을 만든다.
+ - file: 첨부파일 기능 생성
+ - checkbox: 복수 선택이 가능한 box 생성
+ - radio: 복수 선택이 불가능한 box 생성(동일 name="#" 지정)
+ - hidden: 보이지 않는 input값 생성
+ - button: 일반 버튼 생성
+ - reset: 재시작 버튼 생성
+ - submit: 제출 버튼 생성
 
 * select: 리스트 박스 생성
  /+ option: 리스트박스에 들어갈 내용 생성
