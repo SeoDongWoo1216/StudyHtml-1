@@ -19,7 +19,8 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_id_test.html)
 
 -----------------------
-## 2.반응/상태/구조 선택자
+## 2.반응/상태 선택자
+
 * 반응선택자
 1. :active : 마우스로 클릭 시 이벤트 발생
 2. :hover : 마우스 커서가 올라가면 이벤트 발생
@@ -35,7 +36,9 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_child_test.html)
 
-* 구조선택자
+-------------------------
+## 3.구조 선택자
+
 1. :first-child: 형제 관계에서 첫번째
 2. :last-child: 형제 관계에서 마지막
 3. :nth-child(n): 형제관계에서 'n-1'번째
@@ -47,7 +50,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_struct_test.html)
 
 -----------------------------
- ## 3.박스속성
+ ## 4.박스속성
 
 <kbd>![Box_attr](/02_CSS/images/박스속성.PNG "박스속성")</kbd>
 
@@ -57,9 +60,10 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/box_test.html)
 
 -----------------------------
-## 4.가시 속성
+## 5.가시 속성
 
 * display: @
+<br> @
 1. none: 화면에 보이지 않음
 2. block: 하나의 상자와 같은 block형식으로 표시
 3. inline: 인라인(가로열거)형식으로 표시
@@ -71,6 +75,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 * background-image: url('#'): 배경 이미지 삽입
 * background-size: 배경이미지 사이즈 지정
 * background-repeat: @
+<br> @
 1. initial: 기본값 설정
 2. repeat: 가로,세로 전체 반복
 3. no-repeat: 반복 안 함
@@ -79,6 +84,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 6. inherit: 부모의 속성값으로 설정
 
 * background-attachment: @
+<br> @
 1.  initial: 기본값 설정
 2. Scroll: 스크롤따라 배경이미지가 같이 움직임
 3. fixed: 배경이미지 고정
@@ -118,7 +124,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 2. scroll: 영역을 벗어나는 부분을 스크롤로 만듦
 
 ### 구현 및 코드
-<kbd>![position_overflow](/02_CSS/CSS_실행화면/position_overflow_test.PNG "position_overflow_test")</kbd>
+<kbd>![position_overflow](/02_CSS/CSS_실행화면/posiont_overflow_test.PNG "position_overflow_test")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/position2_test.html)
 
