@@ -63,32 +63,29 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 ## 5.가시 속성
 
 * display: @
-<br> @
-1. none: 화면에 보이지 않음
-2. block: 하나의 상자와 같은 block형식으로 표시
-3. inline: 인라인(가로열거)형식으로 표시
-4. inline-block: 인라인 형식으로 열거되면 내부는 block처럼 표시
+  1. none: 화면에 보이지 않음
+  2. block: 하나의 상자와 같은 block형식으로 표시
+  3. inline: 인라인(가로열거)형식으로 표시
+  4. inline-block: 인라인 형식으로 열거되면 내부는 block처럼 표시
 
 ------------------------------
-## 5.배경 속성
+## 6.배경 속성
 
 * background-image: url('#'): 배경 이미지 삽입
 * background-size: 배경이미지 사이즈 지정
 * background-repeat: @
-<br> @
-1. initial: 기본값 설정
-2. repeat: 가로,세로 전체 반복
-3. no-repeat: 반복 안 함
-4. repeat-x: 가로줄 반복
-5. repeat-y: 세로줄 반복
-6. inherit: 부모의 속성값으로 설정
+  1. initial: 기본값 설정
+  2. repeat: 가로,세로 전체 반복
+  3. no-repeat: 반복 안 함
+  4. repeat-x: 가로줄 반복
+  5. repeat-y: 세로줄 반복
+  6. inherit: 부모의 속성값으로 설정
 
 * background-attachment: @
-<br> @
-1.  initial: 기본값 설정
-2. Scroll: 스크롤따라 배경이미지가 같이 움직임
-3. fixed: 배경이미지 고정
-4. inherit: 부모의 속성값으로 설정
+  1. initial: 기본값 설정
+  2. Scroll: 스크롤따라 배경이미지가 같이 움직임
+  3. fixed: 배경이미지 고정
+  4. inherit: 부모의 속성값으로 설정
 
 * background-position: 배경이미지 위치 지정
 * background { }: 여러 속성 입력
@@ -99,7 +96,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/background_test.html)
 
 --------------------------------
-## 6.글자 속성
+## 7.글자 속성
 
 * font-size: 글자 크기 지정
 * font-family: 글꼴 지정
@@ -111,17 +108,17 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/text_test.html)
 
 --------------------------------
-## 7.위치 속성
+## 8.위치 속성
 
 * position: @
-1. absolute: 절대 위치로서 부모를 기준으로 위치 지정 (부모가 위치 지정이 되어 있지 않을 경우 'body'로 위치 기준이 잡힘)
-2. fixed: 스크롤이 내려가도 지정된 위치에 고정
-3. relative: 자신의 static 상태 기준(초기 위치)에서 위치 지정
-4. stacic: 기본위치
+  1. absolute: 절대 위치로서 부모를 기준으로 위치 지정 (부모가 위치 지정이 되어 있지 않을 경우 'body'로 위치 기준이 잡힘)
+  2. fixed: 스크롤이 내려가도 지정된 위치에 고정
+  3. relative: 자신의 static 상태 기준(초기 위치)에서 위치 지정
+  4. stacic: 기본위치
 
 * overflow: @
-1. hidden: 영역에서 벗어나는 부분을 감춤
-2. scroll: 영역을 벗어나는 부분을 스크롤로 만듦
+  1. hidden: 영역에서 벗어나는 부분을 감춤
+  2. scroll: 영역을 벗어나는 부분을 스크롤로 만듦
 
 ### 구현 및 코드
 <kbd>![position_overflow](/02_CSS/CSS_실행화면/posiont_overflow_test.PNG "position_overflow_test")</kbd>
@@ -129,7 +126,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/position2_test.html)
 
 ----------------------------------
-## 8.유동 속성
+## 9.유동 속성
 
 * float: 웹 브라우저 크기와 상관없이 일정한 위치에 요소를 고정시킴
 
