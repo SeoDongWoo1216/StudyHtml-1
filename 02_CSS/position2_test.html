@@ -11,16 +11,17 @@
             height: 100px;
             border: 5px solid black;
             position: relative;
-            overflow: hidden;
+            overflow: scroll;
         }
         .box{
             width: 100px;
             height: 100px;
-            float: left;
+            /* float: left; */
         }
 
         .box:nth-child(1){
             background-color: red;
+            position: absolute;
             left: 50px;
             top: 50px;
             z-index: 100;
@@ -28,6 +29,7 @@
 
         .box:nth-child(2){
             background-color: blue;
+            position: absolute;
             left: 100px;
             top: 100px;
             z-index: 50;
@@ -35,6 +37,7 @@
 
         .box:nth-child(3){
             background-color: green;
+            position: absolute;
             left: 150px;
             top: 150px;
             z-index: 10;
@@ -43,16 +46,13 @@
 </head>
 
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint blanditiis, vel delectus modi aut saepe nam culpa
-        incidunt. Provident quas quisquam possimus recusandae rerum, rem quam fugiat sequi quo tempora?</h1>
     <div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
     </div>
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error rem nulla at qui dolores corrupti quam atque
-        velit? Voluptates excepturi ullam atque ad magni repellat doloremque maiores iste nemo quae!</h1>
 
+    
 </body>
 
 </html>
