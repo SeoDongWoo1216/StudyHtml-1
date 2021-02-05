@@ -5,23 +5,23 @@
 -------------------------------------
 ## 1. 기본태그
 
-* h1 ~ h6: 제목을 적는데 활용하며 1부터 6까지 내려갈 수록 글자크기가 작아짐 <br>
-* p: 본문 글을 적는데 활용 <br>
-* br: 줄 바꿈 <br>
-* hr: 문단 바꿈 <br>
-* a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결 <br>
- 1. _self: 현재페이지에서 이동 <br>
- 2. _blank: 새창에서 이동 <br>
+* h1 ~ h6: 제목을 적는데 활용하며 1부터 6까지 내려갈 수록 글자크기가 작아짐
+* p: 본문 글을 적는데 활용
+* br: 줄 바꿈
+* hr: 문단 바꿈
+* a href="#" target="@":'HyperText referance'의 약어로 다른 주소를 연결
+ 1. _self: 현재페이지에서 이동
+ 2. _blank: 새창에서 이동
 
 ### + Stylish
 
-* i: 이탤릭체 <br>
-* b: 글자 굵게 <br>
-* small: 작은 글자 <br>
-* sub: 아래 첨자 <br>
-* sup: 위 첨자 <br>
-* ins: 밑줄 표시 <br>
-* del: 취소선 <br> 
+* i: 이탤릭체
+* b: 글자 굵게
+* small: 작은 글자
+* sub: 아래 첨자
+* sup: 위 첨자
+* ins: 밑줄 표시
+* del: 취소선 
 
 
 ### 구현 및 코드
@@ -60,18 +60,14 @@
 ## 4.미디어 
 
 * img + @
-
-@
-1. src: 이미지 경로 지정
-2. alt: 이미지가 없을 때 나오는 문자
-3. width: 너비 height: 높이
+ 1. src: 이미지 경로 지정
+ 2. alt: 이미지가 없을 때 나오는 문자
+ 3. width: 너비 height: 높이
 
 * audio,video + @
-
-@
-1. src: 이미지 경로 지정
-2. controls: 제어기 생성
-3. (비디오의 경우) .width: 너비 height: 높이
+ 1. src: 이미지 경로 지정
+ 2. controls: 제어기 생성
+ 3. (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
 <kbd>![media_test](/01_HTML/HTML_실행화면/media_test.PNG "미디어구성")</kbd>
@@ -83,8 +79,6 @@
 
 * form: 입력양식의 내용을 넣을 틀을 만든다.
 * input type ="@" name="#" value="데이터값"
-
-@
 1. text: 입력창을 만든다.
 2. passward: 표기 시 패스워드형태로 표현되는 입력창을 만든다.
 3. file: 첨부파일 기능 생성
