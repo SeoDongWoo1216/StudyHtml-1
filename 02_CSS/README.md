@@ -18,8 +18,6 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_id_test.html)
 
-[HTML_6장_참고](https://github.com/kg4543/StudyHtml/tree/main/01_HTML)
-
 -----------------------
 ## 2.반응/상태/구조 선택자
 * 반응선택자
