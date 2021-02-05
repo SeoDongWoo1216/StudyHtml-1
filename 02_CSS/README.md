@@ -48,12 +48,17 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_struct_test.html)
 
+-----------------------------
  ## 3.박스속성
 
-사진 첨부: 박스속성
-사진 box_test.png
-코드 box_test.html
+<kbd>![Box_attr](/02_CSS/images/박스속성.PNG "박스속성")</kbd>
 
+### 구현 및 코드
+<kbd>![selector_struct](/02_CSS/CSS_실행화면/box_test.PNG "box_test")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/box_test.html)
+
+-----------------------------
 ## 4.가시 속성
 
 * display: @
@@ -62,6 +67,7 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 3. inline: 인라인(가로열거)형식으로 표시
 4. inline-block: 인라인 형식으로 열거되면 내부는 block처럼 표시
 
+------------------------------
 ## 5.배경 속성
 
 * background-image: url('#'): 배경 이미지 삽입
@@ -83,18 +89,24 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 * background-position: 배경이미지 위치 지정
 * background { }: 여러 속성 입력
 
-사진: background_test.png
-코드: background_test.html
+### 구현 및 코드
+<kbd>![background_test](/02_CSS/CSS_실행화면/background_test.PNG "background_test")</kbd>
 
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/background_test.html)
+
+--------------------------------
 ## 6.글자 속성
 
 * font-size: 글자 크기 지정
 * font-family: 글꼴 지정
 * text-align: 글자 정렬
 
-사진 text_test.png
-코드 text_test.html
+### 구현 및 코드
+<kbd>![text_test](/02_CSS/CSS_실행화면/text_test.PNG "text_test")</kbd>
 
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/text_test.html)
+
+--------------------------------
 ## 7.위치 속성
 
 * position: @
@@ -107,19 +119,23 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 1. hidden: 영역에서 벗어나는 부분을 감춤
 2. scroll: 영역을 벗어나는 부분을 스크롤로 만듦
 
-사진: posiont_overflow_test.PNG
-코드: position2_test.html
+### 구현 및 코드
+<kbd>![position_overflow](/02_CSS/CSS_실행화면/position_overflow_test.PNG "position_overflow_test")</kbd>
 
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/position2_test.html)
+
+----------------------------------
 ## 8.유동 속성
 
 * float: 웹 브라우저 크기와 상관없이 일정한 위치에 요소를 고정시킴
 
-사진: float_test.PNG
-코드: float_test.html
-         layout1_html
+### 구현 및 코드
+<kbd>![float_test](/02_CSS/CSS_실행화면/float_test.PNG "float_test")</kbd>
 
+[코드보기1](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/float_test.html)
+[코드보기2](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/layout1_test.html)
 
-
+-----------------------------------
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
