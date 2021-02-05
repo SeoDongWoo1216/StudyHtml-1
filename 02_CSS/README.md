@@ -13,7 +13,7 @@
 6. 후손 선택자: 선택자 선택자
 
 ### 구현 및 코드
-<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+<kbd>![selector_id](/02_CSS/CSS_실행화면/selector_id_test.PNG "기본선택자")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_id_test.html)
 
@@ -32,7 +32,7 @@
 4. disabled: 사용불가능 상태의 input 태그 선택
 
 ### 구현 및 코드
-<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+<kbd>![selector_child](/02_CSS/CSS_실행화면/selector_child_test.PNG "반응&상태")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_child_test.html)
 
@@ -43,7 +43,7 @@
 4. :nth-last-child(n): 형제관계에서 거꾸로 'n-1'번째    
 
 ### 구현 및 코드
-<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+<kbd>![selector_struct](/02_CSS/CSS_실행화면/selector_struct_test.PNG "구조")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/selector_struct_test.html)
 
