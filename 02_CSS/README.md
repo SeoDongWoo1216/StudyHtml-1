@@ -138,7 +138,6 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 -----------------------------------
 ## 10. 레이아웃의 구성 및 기능
 
-### 구현 및 코드
 <kbd>![one_true](/02_CSS/CSS_실행화면/onetrue.PNG "one_true")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/layout_onetrue.html)
@@ -157,7 +156,8 @@ CSS를 활용한 기본 구조 및 스타일링 지정
 <kbd>![responsive_web](/02_CSS/CSS_실행화면/responsive_web.PNG "responsive_web")</kbd>
 <kbd>![responsive_web2](/02_CSS/CSS_실행화면/responsive_web2.PNG "responsive_web2")</kbd>
 
-[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/responsive_test.html)
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/02_CSS/responsive_test.html)<br>
+[Javascript 상세](https://github.com/kg4543/StudyHtml/tree/main/03_JavaScript)
 
 -----------------------------------
 ## 본문으로
