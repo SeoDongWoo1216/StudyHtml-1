@@ -27,7 +27,7 @@
 
 
 ### 구현 및 코드
-<kbd>![text_header](/01_HTML/실행화면/text_header.png "기본구성")</kbd>
+<kbd>![text_header](/01_HTML/HTML_실행화면/text_header.png "기본구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
@@ -39,7 +39,7 @@
 * li: 목록요소 생성
  
  ### 구현 및 코드
-<kbd>![list_test](/01_HTML/실행화면/list_test.PNG "목록구성")</kbd>
+<kbd>![list_test](/01_HTML/HTML_실행화면/list_test.PNG "목록구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/list_test.html)
 
@@ -54,7 +54,7 @@
 <br> \+ th,td rowspan="@": @만큼 아래로 확장
  
  ### 구현 및 코드
-<kbd>![table_test](/01_HTML/실행화면/table_test.PNG "테이블구성")</kbd>
+<kbd>![table_test](/01_HTML/HTML_실행화면/table_test.PNG "테이블구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/table_test.html)
 
@@ -76,7 +76,7 @@
 3. (비디오의 경우) .width: 너비 height: 높이
  
  ### 구현 및 코드
-<kbd>![media_test](/01_HTML/실행화면/media_test.PNG "미디어구성")</kbd>
+<kbd>![media_test](/01_HTML/HTML_실행화면/media_test.PNG "미디어구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
@@ -102,7 +102,7 @@
 * fieldset / legend: 속해지는 하부 객체들을 감싸는 틀 생성 / 내용 작성
 
  ### 구현 및 코드
-<kbd>![input_test](/01_HTML/실행화면/input_test.PNG "입력 구성")</kbd>
+<kbd>![input_test](/01_HTML/HTML_실행화면/input_test.PNG "입력 구성")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
 
@@ -119,7 +119,7 @@
  ![div](/01_HTML/images/공간분할.PNG "공간분할")
  
  ### 구현 및 코드
-<kbd>![space_test](/01_HTML/실행화면/space_test.PNG "공간분할")</kbd>
+<kbd>![space_test](/01_HTML/HTML_실행화면/space_test.PNG "공간분할")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
 
@@ -168,7 +168,7 @@
 </html>
 ```
  ### 구현 및 코드
-<kbd>![css_style](/01_HTML/실행화면/css_test.PNG "css_style")</kbd>
+<kbd>![css_style](/01_HTML/HTML_실행화면/css_test.PNG "css_style")</kbd>
 
 [내부 적용 코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/script_test.html)
 
@@ -179,7 +179,7 @@
 
 -------------------------------
 ## Practice 
-<kbd>![Practice](/01_HTML/실행화면/practice.PNG "Practice")</kbd>
+<kbd>![Practice](/01_HTML/HTML_실행화면/practice.PNG "Practice")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/form_practice.html)
 
