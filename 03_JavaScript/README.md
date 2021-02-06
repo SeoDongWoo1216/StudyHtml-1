@@ -135,6 +135,37 @@ for (var index = 0; index < array.length; index++) {
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test2.html)
 
 ------------------------
+## 6. 이벤트
+ 
+* $(Selector).method(function(event){  });
+  - $(Selector).hover(function(){  },function(){  }); : 객체 위에 마우스 커서를 올리거나 내리면 이벤트 실행
+  - $(Selector).click(function(){  }); : click 시 이벤트 실행
+  - $(Selector).keydown(function(){ }); : 키보드를 누를 시 이벤트 실행
+
+### 구현 및 코드
+<kbd>![Input_Animation](/03_JavaScript/JS_실행화면/input_animation.PNG "Input_Animation")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test4.html)
+
+
+* $(Selector).on(eventName , event) : 이벤트 연결
+* $(Selector).off(eventName , event) : 이벤트 제거
+* $(Selector).animate(속성 객체, 시간, 콜백 함수)
+
+### 구현 및 코드
+<kbd>![Animation1](/03_JavaScript/JS_실행화면/animation1.PNG "Animation1")</kbd>
+<kbd>![Animation2](/03_JavaScript/JS_실행화면/animation2.PNG "Animation2")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test3.html)
+
+--------------------------------
+## Practice (Infinite Scroll)
+
+<kbd>![Input_Animation](/03_JavaScript/JS_실행화면/Infinite_Scroll.PNG "Input_Animation")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test6.html)
+
+--------------------------------
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
