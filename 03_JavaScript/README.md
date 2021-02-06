@@ -159,6 +159,13 @@ for (var index = 0; index < array.length; index++) {
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test3.html)
 
 --------------------------------
+## Practice (Infinite Scroll)
+
+<kbd>![Input_Animation](/03_JavaScript/JS_실행화면/Infinite_Scroll.PNG "Input_Animation")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test6.html)
+
+--------------------------------
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
