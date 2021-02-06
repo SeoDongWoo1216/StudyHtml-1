@@ -5,9 +5,6 @@
     position: relative;
 }
 
-.header-search-form {
-    float: left;
-}
 
 .header-menu {
     float: right;
@@ -90,6 +87,7 @@
 
 /* 검색양식 */
 .header-search-form {
+    float: left;
     padding: 7px;
 }
 

@@ -24,7 +24,7 @@
                 $(this).find(".inner-menu").css("display", "none");
             });
 
-            //그리드 레이아웃,이미지 자동로드 적용
+            //그리드 레이아웃,이미지 로드 적용
             $("#main-section").imagesLoaded(function () {
                 $("#main-section").masonry({
                     itemSelector: ".paper",
@@ -40,23 +40,21 @@
             $("#lightbox").click(function (event) { event.stopPropagation() });
         });
         // 라이트박스보이기
-        //그리드내 이미지 클릭한 것으로 나오기
+
+        //그리드내 이미지 클릭해서 '팝업레이아웃' 보이게 하기
+        //선택한 이미지 주소 전달
         function showLightBox(obj) {
             var img_src = obj.getElementsByTagName("img")[0].src;
-            // var txt_src = obj.getElementsById("#random_text")[0].value;
-            // $(this).appendTo("#random_text");
             $("#random_image").attr({
                 src: function () {
-                    return img_src;
-                    // 램덤이미지
-                    // var rnd_height = 500 + Math.floor(Math.random * 600) + 10;
-                    // return "https://placekitten.com/30/30" + rnd_height
-                }
+                    return img_src; 
+                   }
             });
             $("#darken-background").show();
             $("#darken-background").css("top", $(window).scrollTop());
             $("body").css("overflow", "hidden");
         }
+
         // 라이트박스숨기기
         function hideLightBox() {
             $("#darken-background").hide();
@@ -112,7 +110,7 @@
         </ul>
     </nav>
     <section id="main-section">
-        <!-- .paper 여러번 복사 (later) -->
+        <!-- .paper 여러번 복사 -->
         <div class="paper">
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/대난투.jpeg"></a>
@@ -217,8 +215,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/슈퍼마리오브라더스.jpeg"></a>
             </div>
-            <p class="paper-description">뉴슈퍼마리오브라더스<br><a
-                href="http://prod.danawa.com/info/?pcode=6467425">$51.99</a></p>
+            <p class="paper-description">뉴슈퍼마리오브라더스<br><a href="http://prod.danawa.com/info/?pcode=6467425">$51.99</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -230,8 +228,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/슈퍼마리오브라더스2.jpeg"></a>
             </div>
-            <p class="paper-description">뉴슈퍼마리오브라더스2<br><a
-                href="http://prod.danawa.com/info/?pcode=7236064">$51.99</a></p>
+            <p class="paper-description">뉴슈퍼마리오브라더스2<br><a href="http://prod.danawa.com/info/?pcode=7236064">$51.99</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -243,8 +241,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/슈퍼마리오오딧세이.jpeg"></a>
             </div>
-            <p class="paper-description">슈퍼마리오오딧세이<br><a
-                href="http://prod.danawa.com/info/?pcode=5505221">$50.26</a></p>
+            <p class="paper-description">슈퍼마리오오딧세이<br><a href="http://prod.danawa.com/info/?pcode=5505221">$50.26</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -295,8 +293,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/젤다 야숨.jpeg"></a>
             </div>
-            <p class="paper-description">젤다 야생의 숨결<br><a
-                href="http://prod.danawa.com/info/?pcode=5525156">$58.67</a></p>
+            <p class="paper-description">젤다 야생의 숨결<br><a href="http://prod.danawa.com/info/?pcode=5525156">$58.67</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -321,8 +319,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/커비.jpeg"></a>
             </div>
-            <p class="paper-description">커비 파이터즈2<br><a
-                href="http://prod.danawa.com/info/?pcode=12770330">$18.18</a></p>
+            <p class="paper-description">커비 파이터즈2<br><a href="http://prod.danawa.com/info/?pcode=12770330">$18.18</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -334,8 +332,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/커비스타.jpeg"></a>
             </div>
-            <p class="paper-description">커비 스타얼라이즈<br><a
-                href="http://prod.danawa.com/info/?pcode=5707952">$52.72</a></p>
+            <p class="paper-description">커비 스타얼라이즈<br><a href="http://prod.danawa.com/info/?pcode=5707952">$52.72</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -349,7 +347,8 @@
                 <a><img width="190" src="images/nintendo/포켓몬스터.jpeg"></a>
             </div>
             <p class="paper-description">포켓몬스터 소드&실드<br><a
-                href="http://prod.danawa.com/info/?pcode=11930437&keyword=%ED%8F%AC%EC%BC%93%EB%AA%AC">$25.89</a></p>
+                    href="http://prod.danawa.com/info/?pcode=11930437&keyword=%ED%8F%AC%EC%BC%93%EB%AA%AC">$25.89</a>
+            </p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
@@ -362,7 +361,7 @@
                 <a><img width="190" src="images/nintendo/피파.jpeg"></a>
             </div>
             <p class="paper-description">피파2021<br><a
-                href="http://prod.danawa.com/info/?pcode=12287384&relationMenuType=category">$52.30</a></p>
+                    href="http://prod.danawa.com/info/?pcode=12287384&relationMenuType=category">$52.30</a></p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
