@@ -93,7 +93,8 @@
             <div class="paper-holder">
                 <a><img width="190" src="images/nintendo/대난투.jpeg"></a>
             </div>
-            <p class="paper-description">슈퍼마리오 대난투<br><a href="http://prod.danawa.com/info/?pcode=6215762">$51</a></p>
+            <p class="paper-description">슈퍼마리오 대난투<br>
+            <a href="http://prod.danawa.com/info/?pcode=6215762">$51</a></p>
             <div class="paper-content">
                 <a class="paper-link" href="#">
                     <img src="https://placekitten.com/30/30">
