@@ -110,7 +110,6 @@ for (var index = 0; index < array.length; index++) {
 ----------------------
 ## + 문서객체를 사용한 시간 표시
 
-### 구현 및 코드
 <kbd>![Clock](/03_JavaScript/JS_실행화면/clock_test.PNG "Clock")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test6.html)
