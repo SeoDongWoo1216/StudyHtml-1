@@ -154,7 +154,7 @@ for (var index = 0; index < array.length; index++) {
 
 ### 구현 및 코드
 <kbd>![Animation1](/03_JavaScript/JS_실행화면/animation1.PNG "Animation1")</kbd>
-<kbd>![Animation2](/03_JavaScript/JS_실행화면/animation1.PNG "Animation2")</kbd>
+<kbd>![Animation2](/03_JavaScript/JS_실행화면/animation2.PNG "Animation2")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test3.html)
 
