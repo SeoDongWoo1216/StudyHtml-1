@@ -67,7 +67,7 @@ for (var index = 0; index < array.length; index++) {
 ```
 
 ### 구현 및 코드
-<kbd>![If_for](/03_JavaScript/JS_실행화면/if_for_test.PNG "If_for")</kbd>
+<kbd>![function_test](/03_JavaScript/JS_실행화면/function_test.PNG "function_test")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test3.html)
 
@@ -102,12 +102,20 @@ for (var index = 0; index < array.length; index++) {
 ```
 
 ### 구현 및 코드
-<kbd>![If_for](/03_JavaScript/JS_실행화면/if_for_test.PNG "If_for")</kbd>
+<kbd>![GetElementBy](/03_JavaScript/JS_실행화면/GetElementBy.PNG "GetElementBy")</kbd>
 
-[코드보기1](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test4.html)
+[코드보기1](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test4.html)<br>
 [코드보기2](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test5.html)
 
 ----------------------
+## + 문서객체를 사용한 시간 표시
+
+### 구현 및 코드
+<kbd>![Clock](/03_JavaScript/JS_실행화면/clock_test.PNG "Clock")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test6.html)
+
+-----------------------
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
