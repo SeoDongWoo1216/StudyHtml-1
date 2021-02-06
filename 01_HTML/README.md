@@ -30,7 +30,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/text_header.html)
 
 -------------------------------
-## 2.목록 만들기 
+## 2. 목록 만들기 
 
 * ul: 순서가 없는 목록
 * ol: 순서가 있는 목록
@@ -42,7 +42,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/list_test.html)
 
 -------------------------------
-## 3.테이블 만들기 
+## 3. 테이블 만들기 
 
 * table: 표만들기
 * tr: 행(row) 삽입
@@ -57,7 +57,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/table_test.html)
 
 -------------------------------
-## 4.미디어 
+## 4. 미디어 
 
 * img + @
   - src: 이미지 경로 지정
@@ -75,7 +75,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/media_test.html)
 
 -------------------------------
-## 5.입력 구성
+## 5. 입력 구성
 
 * form: 입력양식의 내용을 넣을 틀을 만든다.
 * input type ="@" name="#" value="데이터값"
@@ -99,7 +99,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/input_test.html)
 
 -------------------------------
-## 6.공간 분할 
+## 6. 공간 분할 
 
 * div 블록형식으로서 전체 공간분할
 * span 인라인형식으로서 글자가 들어간 만큼만 공간분할
@@ -116,7 +116,7 @@
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/01_HTML/space_test.html)
 
 -------------------------------
-## 7.CSS 활용  
+## 7. CSS 활용  
 * 내부 스타일시트 적용
 ```
 <!DOCTYPE html>
