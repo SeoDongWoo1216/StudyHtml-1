@@ -126,9 +126,13 @@ for (var index = 0; index < array.length; index++) {
   - $(Selector).html(): 선택자의 HTML 태그 조작
   
 ### 구현 및 코드
-<kbd>![Clock](/03_JavaScript/JS_실행화면/clock_test.PNG "Clock")</kbd>
+<kbd>![Clock](/03_JavaScript/JS_실행화면/jquery1.PNG "Clock")</kbd>
 
-[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test6.html)
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test1.html)
+
+<kbd>![Clock](/03_JavaScript/JS_실행화면/jquery2.PNG "Clock")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/jquery_test2.html)
 
 ------------------------
 ## 본문으로
