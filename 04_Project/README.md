@@ -83,7 +83,7 @@
 
 
 ### Main_Section
-<kbd>![paper](/main/04_Project/Project_실행화면/paper.PNG "paper")</kbd>
+<kbd>![paper](/04_Project/Project_실행화면/paper.PNG "paper")</kbd>
 
 * HTML
 ```
