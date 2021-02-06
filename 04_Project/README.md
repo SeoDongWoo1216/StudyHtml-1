@@ -214,7 +214,7 @@
 ```
 -------------------------------------
 ### Main_Section
-<kbd>![paper](/04_Project/Project_실행화면/paper.PNG "paper")</kbd>
+<kbd>![main_section](/04_Project/Project_실행화면/main_section.PNG "main_section")</kbd>
 
 * CSS
 ```
