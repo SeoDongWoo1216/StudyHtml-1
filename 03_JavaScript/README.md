@@ -1,5 +1,6 @@
 # JavaScript 기본학습
-Jquery를 활용한 반응형 웹 만들기
+
+JavaScript & Jquery를 활용한 반응형 웹 만들기
 
 -----------------------
 ## 1. 기본구문 및 출력형태
@@ -43,7 +44,7 @@ for (var index = 0; index < array.length; index++) {
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test2.html)
 
 -----------------------
-## 3.함수선언 및 호출
+## 3. 함수선언 및 호출
 
 * 함수 선언: function() { }
 * 함수 호출: fuction '선언한 함수'('입력값') { } 
@@ -67,12 +68,12 @@ for (var index = 0; index < array.length; index++) {
 ```
 
 ### 구현 및 코드
-<kbd>![If_for](/03_JavaScript/JS_실행화면/if_for_test.PNG "If_for")</kbd>
+<kbd>![function_test](/03_JavaScript/JS_실행화면/function_test.PNG "function_test")</kbd>
 
 [코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test3.html)
 
 -----------------------
-## 4.문서 객체 선택 및 활용
+## 4. 문서 객체 선택 및 활용
 
 * 문서객체선택
   - 단수선택
@@ -102,12 +103,34 @@ for (var index = 0; index < array.length; index++) {
 ```
 
 ### 구현 및 코드
-<kbd>![If_for](/03_JavaScript/JS_실행화면/if_for_test.PNG "If_for")</kbd>
+<kbd>![GetElementBy](/03_JavaScript/JS_실행화면/GetElementBy.PNG "GetElementBy")</kbd>
 
-[코드보기1](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test4.html)
+[코드보기1](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test4.html)<br>
 [코드보기2](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test5.html)
 
 ----------------------
+## + 문서객체를 사용한 시간 표시
+
+<kbd>![Clock](/03_JavaScript/JS_실행화면/clock_test.PNG "Clock")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test6.html)
+
+-----------------------
+## 5. Jquery를 활용한 문서 객체 선택 및 속성 조작
+
+* $("Selector").method(매개변수,매개변수)
+  - $(document).ready(function(){ }); : 문서를 불러와 이벤트를 연결
+  - $(Selector).css(): 선택자 스타일 조작
+  - $(Selector).attr(): 선택자의 속성 조작
+  - $(Selector).text(): 선택자의 텍스트 조작
+  - $(Selector).html(): 선택자의 HTML 태그 조작
+  
+### 구현 및 코드
+<kbd>![Clock](/03_JavaScript/JS_실행화면/clock_test.PNG "Clock")</kbd>
+
+[코드보기](https://github.com/kg4543/StudyHtml/blob/main/03_JavaScript/js_test6.html)
+
+------------------------
 ## 본문으로
 
 [이전](https://github.com/kg4543/StudyHtml)
