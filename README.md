@@ -55,5 +55,5 @@ HTML5, CSS, JS 학습용 리포지토리
 #### 반응형 웹 그리드 레이아웃 웹페이지 실습 
 
 [Project 상세](https://github.com/kg4543/StudyHtml/blob/main/04_Project/README.md) <br>
-[Project 소스](https://github.com/kg4543/StudyHtml/tree/main/04_Project)
+[Project 소스](https://github.com/kg4543/StudyHtml/blob/main/04_Project/index.html)
 
